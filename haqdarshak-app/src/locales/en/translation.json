@@ -1,0 +1,14 @@
+{
+    "welcome": "Which Language Do You Prefer?",
+    "next": "Next",
+    "login_option": "How do you want to login?",
+    "register_new_user": "Register me as a new user",
+    "use_phone_number": "Use my phone Number",
+    "use_yojana_card": "Use my Yojana Card",
+    "choose_location": "Choose Location",
+    "select_state": "Select State",
+    "or": "OR",
+    "use_current_location": "Use Current Location",
+    "back": "<- Back"
+  }
+  

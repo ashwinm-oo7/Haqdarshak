@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.radio-group {
+  margin: 20px 0;
+}
+
+.radio-group label {
+  display: block;
+  margin: 10px 0;
+}
+
+.next-button,
+.current-location-button,
+.back-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.back-button {
+  background-color: #ccc;
+}
+
+.state-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+button:disabled {
+  background-color: #ccc;
+}
+.radio-options {
+  margin: 10px 0;
+}
+
+.radio-options label {
+  display: block;
+  margin-bottom: 5px;
+}
+/* General Styles */
+.app {
+  font-family: Arial, sans-serif;
+}
+
+/* Verification Options Page */
+.verification-options-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.radio-options {
+  margin: 10px 0;
+}
+
+.verification-options-page .back-button,
+.verification-options-page button {
+  margin: 10px;
+}
+
+/* Personal Details Page */
+.personal-details-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.personal-details-page label {
+  display: block;
+  margin: 10px 0;
+}
+
+.personal-details-page input {
+  margin-left: 10px;
+}
+
+/* Haqdarshak Page */
+.haqdarshak-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.loading {
+  font-size: 18px;
+}
+
+.success {
+  font-size: 20px;
+}
+
+.success-icon {
+  color: green;
+  margin-right: 10px;
+}
